@@ -1,0 +1,174 @@
+/* Custome Layout Styling Rules */
+
+/* styling the main */
+main {
+    margin: 0;
+    padding: 0;
+}
+/* stylin the hero section */
+.hero {
+  min-height: 350px ;
+  background: #222;
+  color: #FFF;
+  margin: 0;
+  padding: 50px;
+}
+.hero h1 { 
+  margin-left: 45px;
+  padding-left: 30px;
+  font-size: 40px;
+}
+.btn-reg {
+    margin: 30px 75px;
+    padding: 10px 15px;
+    color: #000;
+    background-color: rgb(141, 33, 123);
+    text-decoration: none;
+    border-radius: 6px;
+}
+/* styling the content section */
+.main-content {
+    padding: 40px 30px;
+    margin: 50px;
+}
+.content {
+    margin: 40px 30px;
+}
+.content > p {
+    font-size: 18px;
+    padding: 2px
+}
+.content > h3 {
+    font-size: 24px;
+    margin:  25px 15px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* styling the resources section */
+.resources {
+    background: #f3f3f3;
+    padding: 40px 30px 60px 30px;
+}
+.resources > h3 {
+    font-size: 24px;
+    color: #222;
+}
+.resources > h5 {
+    font-size: 18px;
+}
+.resources > h3, h5 {
+    margin:  25px 15px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* styling the certificate generation link section */
+.gen {
+    padding: 40px 20px;
+    background-color: rgb(190, 188, 190);
+}
+.cert-icon {
+    display: inline-block;
+    padding: 5px;
+}
+.cert-icon > img {
+    width:  95px;
+    height: 95px;
+    margin: 0;
+    margin-left: 55px;
+    vertical-align: center;
+
+}
+.linked {
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    margin-left: 35px;
+    padding-bottom: 15px;
+    vertical-align: center;
+
+}
+.btn-gen  {
+    float: right;
+    margin: 0;
+    background-color: #222;
+    color: #e2dddd
+}
+/* styling sponsors logos */
+.aiesec {
+    width: 100px;
+    height: 20px   
+}
+
+
+
+/* responsive styling */
+@media screen and (max-width: 420px) {
+    .hero {        
+        padding: 15px;
+      }
+      .hero h1 { 
+        margin-left: 20px;
+        padding-left: 15px;
+        font-size: 34px;
+      }
+      .btn-reg {
+          margin: 15px 35px;
+          padding: 10px 15px;
+          text-decoration: none;
+          border-radius: 4px;
+      }
+      /* styling the content section */
+      .main-content {
+          padding: 30px 15x;
+          margin: 20px;
+      }
+      .content {
+          margin: 30px 10px;
+      }
+      /* styling the resources section */
+      .resources {
+          background: #f3f3f3;
+          padding: 40px 15px 60px 15px;
+      }
+      .resources > h3 {
+          font-size: 24px;
+          color: #222;
+      }
+      .resources > h5 {
+          font-size: 18px;
+      }
+      .resources > h3, h5 {
+          margin:  25px 15px;
+          padding: 10px 15px;
+          text-align: center;
+          text-transform: uppercase;
+      }
+      /* styling the certificate generation link section */
+      .gen {
+          padding: 40px 15px;
+          background-color: rgb(190, 188, 190);
+      }
+      .cert-icon {
+          display: inline-block;
+          padding: 5px;
+      }
+      .cert-icon > img {
+          width:  95px;
+          height: 95px;
+          margin: 0;
+          margin-left: 25px;
+          vertical-align: center;
+      
+      }
+      .linked {
+          display: inline-block;
+          font-size: 18px;
+          color: #000;
+          margin-left: 15px;
+          padding-bottom: 15px;
+          vertical-align: center;
+      
+      }  
+  }
