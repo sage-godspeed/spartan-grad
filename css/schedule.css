@@ -20,7 +20,7 @@ td {
     width: 250px;
 }
 tr{
-    font-size: 18px;
+    font-size: 14px;
 }
 tr:hover {
     background-color: #c4bfbf
@@ -35,7 +35,7 @@ td > a {
 @media screen and (max-width: 420px) {
     table {
         border-collapse: collapse;
-        width: 55%;
+        width: 60%;
         margin: 0 auto;
         padding: 20px 0;
     }

@@ -107,6 +107,7 @@ main {
 @media screen and (max-width: 420px) {
     .hero {        
         padding: 15px;
+        min-height: 400px ;
       }
       .hero h1 { 
         margin-left: 20px;
@@ -121,11 +122,11 @@ main {
       }
       /* styling the content section */
       .main-content {
-          padding: 30px 15x;
-          margin: 20px;
+          padding: 30px 10x;
+          margin: 10px;
       }
       .content {
-          margin: 30px 10px;
+          margin: 30px 5px;
       }
       /* styling the resources section */
       .resources {

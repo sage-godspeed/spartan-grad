@@ -63,6 +63,13 @@ footer ul li a  {
 
 /* responsive styling */
 @media screen and (max-width: 420px) {
+  html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
   .header {
     padding: 5px 10px;
   }
@@ -73,7 +80,9 @@ footer ul li a  {
 /* styling our footer */
 footer   {
   padding: 10px;
-
+}
+footer ul li a  {
+  padding: 5px 8px;
 }
 
 }
